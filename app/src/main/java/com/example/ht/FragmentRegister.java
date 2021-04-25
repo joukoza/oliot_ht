@@ -46,6 +46,7 @@ public class FragmentRegister extends Fragment {
 
     public int getRank(){
         int rank;
+        /* If the rank-variable was left blank, return a 1 (create a normal user.) */
         try{
             rank = Integer.parseInt(editRegisterRank.getText().toString());
         } catch (NumberFormatException e){
