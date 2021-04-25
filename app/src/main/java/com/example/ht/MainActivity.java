@@ -534,6 +534,8 @@ public class MainActivity extends AppCompatActivity {
         /* Creates the menu's for each day so the program can be tested without
         * properly implemented user-privileges. */
         rest.createDayList();
+        /* The food items are in Finnish, because these are also used for
+        * the Fineli API calls. */
         rest.addMenu("Monday", "Omenahillo","vegan");
         rest.addMenu("Monday", "Makkarakeitto","omnivore");
         rest.addMenu("Tuesday", "Porkkana","vegan");
