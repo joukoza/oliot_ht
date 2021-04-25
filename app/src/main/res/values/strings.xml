@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">HT</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="buttonHomeMonday">Monday</string>
+    <string name="buttonHomeTuesday">Tuesday</string>
+    <string name="buttonHomeWednesday">Wednesday</string>
+    <string name="buttonHomeThursday">Thursday</string>
+    <string name="buttonHomeFriday">Friday</string>
+    <string name="buttonHomeSaturday">Saturday</string>
+    <string name="buttonHomeSunday">Sunday</string>
+    
+    <string name="textDayOmnivore">Omnivore: </string>
+    <string name="buttonDayUserAdd">Add food</string>
+    <string name="buttonDayUserReview">Review food</string>
+    <string name="textDayVegan">Vegan: </string>
+
+    <string name="textSignIn">Sign in</string>
+    <string name="buttonSignIn">Sign in</string>
+    <string name="editUserNameHint">User name</string>
+    <string name="editPasswordHint">Password</string>
+    <string name="buttonRegister">Register</string>
+
+    <string name="textSignInUser">Currently signed in as: </string>
+    <string name="textPlaceholder">Placeholder</string>
+    <string name="buttonSignOut">Sign out</string>
+
+    <string name="textRegister">Register</string>
+    <string name="editEmailHint">Email</string>
+    <string name="buttonCreateAccount">Create Account</string>
+    <string name="editRankHint">Rank</string>
+
+    <string name="textStatsNone">Sign in to see your stats.</string>
+
+    <string name="textStatsUserTitle">Currently signed in as:</string>
+    <string name="buttonStatsUserData">Load data</string>
+
+</resources>

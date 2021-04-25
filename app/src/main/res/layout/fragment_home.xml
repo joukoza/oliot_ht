@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonHomeSunday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="loadSundayFragment"
+        android:text="@string/buttonHomeSunday"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonHomeSaturday"
+        app:layout_constraintVertical_bias="0.62" />
+
+    <TextView
+        android:id="@+id/textHomeRestaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textPlaceholder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <Button
+        android:id="@+id/buttonHomeMonday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="loadMondayFragment"
+        android:text="@string/buttonHomeMonday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textHomeRestaurant" />
+
+    <Button
+        android:id="@+id/buttonHomeTuesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="loadTuesdayFragment"
+        android:text="@string/buttonHomeTuesday"
+        app:layout_constraintBottom_toTopOf="@+id/buttonHomeWednesday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonHomeMonday" />
+
+    <Button
+        android:id="@+id/buttonHomeWednesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:onClick="loadWednesdayFragment"
+        android:text="@string/buttonHomeWednesday"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonHomeMonday"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonHomeThursday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="loadThursdayFragment"
+        android:text="@string/buttonHomeThursday"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonHomeWednesday"
+        app:layout_constraintVertical_bias="0.213" />
+
+    <Button
+        android:id="@+id/buttonHomeFriday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="loadFridayFragment"
+        android:text="@string/buttonHomeFriday"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonHomeThursday"
+        app:layout_constraintVertical_bias="0.243" />
+
+    <Button
+        android:id="@+id/buttonHomeSaturday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="loadSaturdayFragment"
+        android:text="@string/buttonHomeSaturday"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonHomeFriday"
+        app:layout_constraintVertical_bias="0.294" />
+</androidx.constraintlayout.widget.ConstraintLayout>
